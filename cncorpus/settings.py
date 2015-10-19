@@ -89,6 +89,8 @@ ITEM_PIPELINES = {
 #HTTPCACHE_STORAGE='scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 # craw stat related
+CORPUS_SAVE_PATH = "data/corpus.txt"
+MAX_SCRAPE_URLS = 100
 NEWS_STAT_ENABLED = True
 NEWS_STAT_MAX_ITEM_COUNT = 100
 NEWS_STAT_SCRAPED_URL_SAVE_PATH = "data/scraped_urls.txt"
